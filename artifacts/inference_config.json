@@ -1,0 +1,9 @@
+{
+  "model_name": "XGBoost",
+  "fp_radius": 2,
+  "fp_bits": 2048,
+  "decision_threshold": 0.5,
+  "seed": 42,
+  "feature_schema": "concat(fa+fb, abs(fa-fb))",
+  "pair_order_invariant": true
+}
